@@ -1,0 +1,125 @@
+    body {
+        font-family: 'Inter', sans-serif;
+        background-color: #f7f7f7;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        line-height: 1.6;
+    }
+
+    h1, h2, h3 {
+        color: #222;
+        margin-bottom: 0.5em;
+    }
+
+    p {
+        margin-bottom: 1em;
+        color: #555;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+        transition: color 0.3s ease;
+    }
+
+    a:hover {
+        color: #0369a1;
+    }
+
+    /* Buttons */
+    button {
+        cursor: pointer;
+        font-family: inherit;
+        border: none;
+        outline: none;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    button:hover {
+        transform: scale(1.02);
+    }
+
+    /* Forms */
+    input, textarea {
+        width: 100%;
+        padding: 0.8em;
+        border: 1px solid #dddddd;
+        border-radius: 0.5em;
+        font-size: 1rem;
+        margin-bottom: 1em;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    input:focus, textarea:focus {
+        border-color: #0369a1;
+        box-shadow: 0 0 4px rgba(3, 105, 161, 0.5);
+        outline: none;
+    }
+
+    /* Cards */
+    .card {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Images */
+    img {
+        max-width: 100%;
+        display: block;
+        border-radius: 8px;
+    }
+
+    /* Grid */
+    .grid {
+        display: grid;
+        gap: 1.5rem;
+    }
+
+    .grid-cols-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-cols-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Utility Classes */
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .block {
+        display: block;
+    }
+
+    .rounded {
+        border-radius: 8px;
+    }
+
+    .shadow {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .hover\:underline:hover {
+        text-decoration: underline;
+    }
+
